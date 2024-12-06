@@ -11,7 +11,7 @@ import { SendMoney } from "./pages/SendMoney";
 function App() {
   return (
     <>
-       <BrowserRouter>
+      <BrowserRouter>
         <Routes>
           <Route path="/signup" element={<Signup />} />
           <Route path="/signin" element={<Signin />} />
